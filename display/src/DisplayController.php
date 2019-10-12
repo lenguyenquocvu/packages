@@ -1,6 +1,6 @@
 <?php
 
-namespace Home\Display;
+namespace Display;
 
 use App\Http\Controllers\Controller;
 

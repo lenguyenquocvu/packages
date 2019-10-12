@@ -1,7 +1,7 @@
 {
     "name": "quocvu/display",
+	"type": "library",
     "description": "Demo package",
-    "type": "LARAVEL",
     "license": "MIT",
     "authors": [
         {
@@ -12,9 +12,8 @@
     "minimum-stability": "dev",
     "require": {},
 	"autoload": {
-         "psr-4": {
-            "App\\": "app/",
-            "Home\\Display\\": "src/"
+        "psr-0": {
+            "Display": "src/"
         }
     }
 }
