@@ -1,0 +1,21 @@
+{
+    "name": "quocvu/display",
+    "description": "Demo package",
+    "type": "LARAVEL",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "quocvu",
+            "email": "lenguyenquocvucd17tt10@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.2.0"
+	}
+	"autoload": {
+        "psr-0": {
+            "display": "src"
+        }
+    }
+}
