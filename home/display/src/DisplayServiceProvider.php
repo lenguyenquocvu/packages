@@ -1,6 +1,6 @@
 <?php
 
-namespace Display;
+namespace Home\Display;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -15,7 +15,7 @@ class DisplayServiceProvider extends ServiceProvider
     {
         //
 		$this->loadRoutesFrom(__DIR__.'/routes/web.php');
-		$this->loadViewsFrom(__DIR__.'/views', 'display');
+        $this->loadViewsFrom(__DIR__.'/views', 'display');
 		$this->publishes([
 			__DIR__.'/public' => public_path('homes'),
 		], 'public');
